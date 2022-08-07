@@ -31,6 +31,8 @@ Cookies expire, you will need to refresh them once per 36/h.
 However they will not expire while the program is running.
 
 ### 3. Running the app
+You need to **extract** the files from the zip before you are able to use the app. Learn more [here](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5#:~:text=To%20unzip%20a%20single%20file,and%20then%20follow%20the%20instructions.)
+
 Run main.exe in order to run the app.
 
 Run slovakia.bat if your from slovakia (also get cookies from keydrop.gg)
