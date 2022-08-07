@@ -5,12 +5,19 @@
 
 ### 1. Config.js
 If you change any communication with discord you might break the app.
+
 1.1 2captcha_api_key - This is used to solve captchas.
+
 1.2 discord_token - This is used to communicate with discord.
+
 1.3 recievingFromBot_id - Used to communicate with discord.
+
 1.4 chromePath - Set the path of chrome "here" if the app is not working.
-1.5 headless - Set to true to hide chrome or set to false to show chrome. Set as false by default.
+
+1.5 headless - Set to true to hide chrome or set to false to show chrome. Set as true by default.
+
 1.6 golden_code_channels - Used to communicate with discord.
+
 1.7 useragent - Changes the useragent of the app, don't mess with this unless you don't know what you're doing.
 
 ### 2. Cookies
