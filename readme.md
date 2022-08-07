@@ -28,5 +28,8 @@ Run main.exe in order to run the app.
 or
 You can run slovakia.bat if your from slovakia (also get cookies from keydrop.gg)
 
-If you have any other problems dm me at RageTheLegend#2391
+### 4. Getting BOT Token 
+Go to [this site](https://keydrop.pages.dev/) and copy the long line of charachters, then open config.js and paste in the discord_token the string of charachters.
+
+**If you have any other problems dm me at RageTheLegend#2391**
 
