@@ -32,8 +32,8 @@ However they will not expire while the program is running.
 
 ### 3. Running the app
 Run main.exe in order to run the app.
-or
-You can run slovakia.bat if your from slovakia (also get cookies from keydrop.gg)
+
+Run slovakia.bat if your from slovakia (also get cookies from keydrop.gg)
 
 ### 4. Getting BOT Token 
 Go to [this site](https://keydrop.pages.dev/) and copy the long line of charachters, then open config.js and paste in the discord_token the string of charachters.
