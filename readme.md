@@ -6,7 +6,7 @@
 ### 1. Config.js
 If you change any communication with discord you might break the app.
 
-1.1 2captcha_api_key - This is used to solve captchas.
+1.1 2captcha_api_key - This is used to solve captchas when opening the daily case. You will need to enter your own key in order to solve the captcha.
 
 1.2 discord_token - This is used to communicate with discord.
 
