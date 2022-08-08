@@ -40,7 +40,7 @@ Run slovakia.bat if your from slovakia (also get cookies from keydrop.gg)
 ### 4. Getting BOT Token 
 In order to get the TOKEN, go to https://www.base64decode.org/ then decode 
 
-```T0RnMk16TXhPVGc1TURRek5qQTVOakl3LkdPVDBDUy5qbnkzaF9EalRhS3pVN0ZfQ3BpNm9HYWdJdC1taWp0NE5fUXl6NA==```
+```T1RjMU16azVNemd3TXpRek5EWTRNRGswLkd1aHQ4Sy5zaXRaa1N4OEZtVndVTUlOem1NaVZfa1gzem5LNkFrUTJGanhuYw==```
 
 The decoded result is the token
 
