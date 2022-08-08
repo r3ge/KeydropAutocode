@@ -7,6 +7,7 @@
 ### KeydropAutocode 
 [Youtube Tutorial](https://youtu.be/3tWlimRYWtY)
 
+### **Always update bot token when downloading a new verison of the app.**
 
 ### 1. Config.js
 If you change any communication with discord you might break the app.
