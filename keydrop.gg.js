@@ -107,6 +107,7 @@ const findRecaptchaClients = () => {
 
 const claimDaily = async (context) => {
 	console.log('[Daily] Claiming daily case');
+	await dailyPage.waitForSelector(config.selectors.daily_open);
 	let dailyPage = await context.newPage();
 	await dailyPage.goto("https://key-drop.gg/en/Daily_free");
 	console.log('[Daily] Successfully reached daily page');

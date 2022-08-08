@@ -110,6 +110,7 @@ const claimDaily = async (context) => {
 	let dailyPage = await context.newPage();
 	await dailyPage.goto("https://key-drop.com/en/Daily_free");
 	console.log('[Daily] Successfully reached daily page');
+	await dailyPage.waitForSelector(config.selectors.daily_open);
 	await dailyPage.click(config.selectors.daily_open);
 	await wait(500);
 	console.log('[Daily] Solving captcha');
