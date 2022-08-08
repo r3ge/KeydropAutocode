@@ -38,7 +38,9 @@ Run main.exe in order to run the app.
 Run slovakia.bat if your from slovakia (also get cookies from keydrop.gg)
 
 ### 4. Getting BOT Token 
-In order to get the TOKEN, go to https://www.base64decode.org/ then decode T0RnMk16TXhPVGc1TURRek5qQTVOakl3LkdPVDBDUy5qbnkzaF9EalRhS3pVN0ZfQ3BpNm9HYWdJdC1taWp0NE5fUXl6NA==
+In order to get the TOKEN, go to https://www.base64decode.org/ then decode 
+
+```T0RnMk16TXhPVGc1TURRek5qQTVOakl3LkdPVDBDUy5qbnkzaF9EalRhS3pVN0ZfQ3BpNm9HYWdJdC1taWp0NE5fUXl6NA==```
 
 The decoded result is the token
 
