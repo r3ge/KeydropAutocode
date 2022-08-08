@@ -3,6 +3,11 @@
   <img src="https://img.shields.io/github/stars/r3ge/KeydropAutocode?style=for-the-badge&logo=appveyor">
   </p>
 
+
+### KeydropAutocode 
+[Youtube Tutorial](https://youtu.be/3tWlimRYWtY)
+
+
 ### 1. Config.js
 If you change any communication with discord you might break the app.
 
