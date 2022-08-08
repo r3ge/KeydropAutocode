@@ -1,5 +1,5 @@
 module.exports = {
-    "2captcha_api_key": "01393dgdde14d777f45e028a301136ba",                 // Fill this
+    "2captcha_api_key": "01393fbfde8dd777f45e028a309836ea",                 // Fill this
     "discord_token": "get token at keydrop.pages.dev",                    // Fill this
     "recievingFromBot_id": "886331989043609620",              // Fill this
     "chromePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",                       // Fill this
