@@ -50,6 +50,10 @@ In order to get the TOKEN, go to https://www.base64decode.org/ then decode
 
 The decoded result is the token
 
+### 5. Running on multiple accounts 
+
+In order to run multiple accounts, put multiple cookie files in the cookie folder.
+
 **If you have any other problems dm me at RageTheLegend#2391 or open a issue [here](https://github.com/r3ge/KeydropAutocode/issues)**.
 
 Always check older issues in case they match yours
