@@ -63,3 +63,5 @@ In order to run multiple accounts, put multiple cookie files in the cookie folde
 
 Always check older issues in case they match yours
 
+Discord Logo Icon by Jagathish Saravanan
+
