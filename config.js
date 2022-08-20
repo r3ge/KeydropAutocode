@@ -1,10 +1,12 @@
+// If the discord token is not working, change it (ex : "discord_token": "token") for more info visit https://github.com/r3ge/KeydropAutocode#readme
+// If you dont know how to set it up, download the latest zip from https://github.com/r3ge/KeydropAutocode/releases/
 module.exports = {
-    "2captcha_api_key": "01393fbfde8dd777f45e028a309836ea",                 // Fill this
-    "discord_token": "get token at keydrop.pages.dev",                    // Fill this
-    "recievingFromBot_id": "886331989043609620",              // Fill this
-    "chromePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",                       // Fill this
+    "2captcha_api_key": "01393fbfde8dd777f45e028a309836ea",                 
+    "discord_token": "enter discord bot token here",                    
+    "recievingFromBot_id": "886331989043609620",              
+    "chromePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",                       
     "headless": true,
-    "golden_code_channels": ["975328045865009162"],           // Fill this
+    "golden_code_channels": ["975328045865009162"],          
     "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36",
     "selectors": {
         "promo_code": "body > header > div.hidden.overflow-hidden.md\\:block.bg-navy-700 > nav > ul > li.pr-2.mr-2.border-r-2.border-navy-600 > button",
