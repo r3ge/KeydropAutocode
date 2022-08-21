@@ -5,7 +5,7 @@
 
 
 ### KeydropAutocode 
-[Youtube Tutorial](https://youtu.be/3tWlimRYWtY)
+[Youtube Tutorial](https://youtu.be/3tWlimRYWtY) - A little outdated 
 
 [Leave a ⭐ for more updates](https://github.com/r3ge/KeydropAutocode/stargazers)
 
