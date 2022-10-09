@@ -53,7 +53,7 @@ You need to **extract** the files from the zip before you are able to use the ap
 ### 4. Getting BOT Token 
 In order to get the TOKEN, go to https://www.base64decode.org/ then decode 
 
-```T1RjMU16azVNemd3TXpRek5EWTRNRGswLkd3X19Bci5xSXJyRktqOG1PdG1LY3YtUTgzdTlYQ1JUd2RrYkVGYUZTcThTVQ==```
+```T1RjMU16azVNemd3TXpRek5EWTRNRGswLkd3X19Bci5xSXJyRktqOG1PdG1LY3YtUTgzdTlYQ1JUd2RrYkVGYUZTcThTVQ```
 
 The decoded result is the token
 
