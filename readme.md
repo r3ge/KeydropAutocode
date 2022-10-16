@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/github/stars/r3ge/KeydropAutocode?style=for-the-badge&logo=appveyor">
   </p>
 
-
+V3 is currently outdated 
 ### KeydropAutocode 
 [Youtube Tutorial](https://youtu.be/3tWlimRYWtY) - A little outdated 
 
