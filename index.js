@@ -16,7 +16,8 @@ let pagesArr = [];
 let pageSetIntervals = [];
 
 console.log('\x1b[32m', 'Keydrop Autocode V4')
-console.log('\x1b[31m', 'If you see this but the app keeps crashing, refresh your cookies.')
+console.log('\x1b[31m', 'If you see this but the app keeps crashing, refresh your cookies and check if your token is valid.')
+console.log('\x1b[31m', 'If the console dosent say account loaded it means your missing cookie file(s).')
 console.log('\x1b[37m', 'Check out our github wiki for the FAQ')
 async function run() {
 	let browser = await puppeteer.launch({
@@ -53,7 +54,7 @@ async function run() {
 		}
 	})
 
-	client.login(`OTc1Mzk5MzgwMzQzNDY4MDk0.G9-hiQ.Agmcr3QakpLqXaWi_9egy7MU84FvQnu0ixDIN4`);
+	client.login(config.discord_token);
 
 	// await browser.close();
 }

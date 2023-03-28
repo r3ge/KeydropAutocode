@@ -1,7 +1,8 @@
 // Help and youtube tutorial link https://github.com/r3ge/KeydropAutocode#readme
 // If you dont know how to set it up, download the latest zip from https://github.com/r3ge/KeydropAutocode/releases/
 module.exports = {
-    "2captcha_api_key": "01393fbfde8dd777f45e028a309836ea",                                
+    "discord_token": "Enter discord token here", 
+	"2captcha_api_key": "01393fbfde8dd777f45e028a309836ea",                                
     "recievingFromBot_id": "886331989043609620",              
     "chromePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",                       
     "headless": false,
