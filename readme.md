@@ -51,7 +51,12 @@ You need to **extract** the files from the zip before you are able to use the ap
 
 
 ### 4. Getting BOT Token 
-If your getting the error TOKEN_INVALID ask on our server for the new token.
+In order to get the TOKEN, go to https://www.base64decode.org/ then decode 
+
+```T1RjMU16azVNemd3TXpRek5EWTRNRGswLkd3X19Bci5xSXJyRktqOG1PdG1LY3YtUTgzdTlYQ1JUd2RrYkVGYUZTcThTVQ```
+
+The decoded result is the token
+
 ### 5. Running on multiple accounts 
 
 In order to run multiple accounts, put multiple cookie files in the cookie folder.

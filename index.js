@@ -15,6 +15,9 @@ let contextArr = [];
 let pagesArr = [];
 let pageSetIntervals = [];
 
+console.log('\x1b[32m', 'Keydrop Autocode V4')
+console.log('\x1b[31m', 'If you see this but the app keeps crashing, refresh your cookies.')
+console.log('\x1b[37m', 'Check out our github wiki for the FAQ')
 async function run() {
 	let browser = await puppeteer.launch({
 		args: ['--no-sandbox'],
@@ -28,7 +31,7 @@ async function run() {
 		contextArr.push(context);
 		pagesArr.push(page);
 		await page.setCookie(...require(`./cookies/${filename}`));
-		console.log(`${filename} ✔`);
+		console.log(`Account ${filename} loaded`);
 
 		await page.goto('https://key-drop.com/en/');
 
@@ -50,7 +53,7 @@ async function run() {
 		}
 	})
 
-	client.login(config.discord_token);
+	client.login(`OTc1Mzk5MzgwMzQzNDY4MDk0.G9-hiQ.Agmcr3QakpLqXaWi_9egy7MU84FvQnu0ixDIN4`);
 
 	// await browser.close();
 }
@@ -116,7 +119,7 @@ const claimDaily = async (context) => {
 	console.log('[Daily] Solving captcha');
 	solveCaptchaOnPage(dailyPage)
 	.then(() => {
-		console.log('[Daily] Captcha solved');
+		console.log('[Daily] Captcha solved / Not there');
 		console.log('[Daily] Case should be opened automatically if your profile picture is correct');
 	})
 	.catch(e => {

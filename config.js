@@ -1,11 +1,10 @@
-// If the discord token is not working, change it (ex : "discord_token": "token") for more info visit https://github.com/r3ge/KeydropAutocode#readme
+// Help and youtube tutorial link https://github.com/r3ge/KeydropAutocode#readme
 // If you dont know how to set it up, download the latest zip from https://github.com/r3ge/KeydropAutocode/releases/
 module.exports = {
-    "2captcha_api_key": "01393fbfde8dd777f45e028a309836ea",                 
-    "discord_token": "enter discord bot token here",                    
+    "2captcha_api_key": "01393fbfde8dd777f45e028a309836ea",                                
     "recievingFromBot_id": "886331989043609620",              
     "chromePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",                       
-    "headless": true,
+    "headless": false,
     "golden_code_channels": ["975328045865009162"],          
     "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36",
     "selectors": {
@@ -19,6 +18,6 @@ module.exports = {
         "toast_desc_p": "body > div.toast-container.js-toast-container > div > div > div.toast__text > p.toast__desc",
         "recaptcha_frame": "#promo-code-root > div > div.relative.grid.css-126rogm > div.relative.flex.flex-col.items-center.justify-center.col-start-1.row-start-1.px-10.py-5.text-center.transition-opacity.duration-500.md\\:px-20 > div > div > div > div > div > iframe",
         "go_back": "body > reach-portal > div:nth-child(3) > div > div > div > div > a",
-        "daily_open": "body > main > div.bg-top.bg-no-repeat.bg-contain > div > section.relative.js-loser-section > div.sticky.bottom-0.z-10.flex.flex-col.items-center.py-5.mt-5.mb-16.container-p-0.lg\\:flex-row > div.relative.flex.items-center.justify-center.lg\\:w-1\\/3 > div.flex.js-loser-btn-container.transition-fast.opacity-100 > button"
+        "daily_open": "#dailyCase-root > div.container.hide-scrollbar.snap-x.snap-mandatory.overflow-x-auto > ul > li:nth-child(1) > button > div > div > canvas"
     }
 }
