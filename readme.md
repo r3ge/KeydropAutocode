@@ -31,7 +31,7 @@ If you change any communication with discord you might break the app.
 1.7 useragent - Changes the useragent of the app, don't mess with this unless you don't know what you're doing.
 
 ### 2. Cookies
-In order to use the app you will need to get your cookies. To do that install [this chrome extension](https://chrome.google.com/webstore/detail/%E3%82%AF%E3%83%83%E3%82%AD%E3%83%BCjson%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E5%87%BA%E5%8A%9B-for-puppet/nmckokihipjgplolmcmjakknndddifde?hl=en). and go to Keydrop.com. 
+In order to use the app you will need to get your cookies. To do that install [this chrome extension](https://chrome.google.com/webstore/detail/%E3%82%AF%E3%83%83%E3%82%AD%E3%83%BCjson%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E5%87%BA%E5%8A%9B-for-puppet/nmckokihipjgplolmcmjakknndddifde?hl=en) and go to Keydrop.com. 
 Then press on the puzzle piece to reveal the chrome extension which is located in the right corner of chrome and press on the extension 
 A popup should appear. Press on the blue button named ‘Export cookies as JSON’
 That will trigger a download. A file called key-drop.com.cookies.json will be downloaded on your device. Place it in the cookies folder of the app.
