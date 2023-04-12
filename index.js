@@ -25,6 +25,8 @@ async function run() {
 		headless: config.headless,
 		executablePath: config.chromePath
 	});
+	
+	let initPage = await (await browser.pages())[0];
 
 	fs.readdirSync('./cookies').filter(filename => filename.endsWith('.json')).forEach(async filename => {
 		let context = await browser.createIncognitoBrowserContext();
@@ -44,6 +46,7 @@ async function run() {
 
 	client.once('ready' , c => {
 		console.log(`[Discord] Logged in as ${c.user.tag} (${client.user.id})`);
+		initPage.close();
 	})
 	
 	client.on('messageCreate', async message => {
@@ -55,8 +58,6 @@ async function run() {
 	})
 
 	client.login(config.discord_token);
-
-	// await browser.close();
 }
 
 const wait = ms => {
