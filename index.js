@@ -29,6 +29,7 @@ async function run() {
 	fs.readdirSync('./cookies').filter(filename => filename.endsWith('.json')).forEach(async filename => {
 		let context = await browser.createIncognitoBrowserContext();
 		let page = await context.newPage();
+		await optimize(page);
 		contextArr.push(context);
 		pagesArr.push(page);
 		await page.setCookie(...require(`./cookies/${filename}`));
@@ -112,6 +113,7 @@ const findRecaptchaClients = () => {
 const claimDaily = async (context) => {
 	console.log('[Daily] Claiming daily case');
 	let dailyPage = await context.newPage();
+	await optimize(dailyPage);
 	await dailyPage.goto("https://key-drop.com/en/Daily_free");
 	console.log('[Daily] Successfully reached daily page');
 	await dailyPage.waitForSelector(config.selectors.daily_open);
@@ -332,6 +334,18 @@ Discord.Message.prototype.getCode = function() {
 	}
 
 	return false;
+}
+
+const optimize = async (page) => {
+	if (!config.optimize) return;
+	await page.setRequestInterception(true)
+	page.on('request', (request) => {
+		if (['media', 'image', 'stylesheet', 'font'].indexOf(request.resourceType()) !== -1) {
+			request.abort();
+		} else {
+			request.continue();
+		}
+	});
 }
 
 run();
