@@ -142,7 +142,7 @@ const redeemCodeOnPage = async (page, code) => {
 	console.log(`[Macro] Typed ${code} into the field`);
 	*/
 	
-	console.log(`[Macro] Redirecting to https://key-drop}.com/?code=${code}`);
+	console.log(`[Macro] Redirecting to https://key-drop.com/?code=${code}`);
 	await Promise.allSettled([
 	    page.goto(`https://key-drop.com/?code=${code}`),
 	    page.waitForNavigation({ waitUntil: 'domcontentloaded' })
