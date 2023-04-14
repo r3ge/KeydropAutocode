@@ -6,6 +6,7 @@ module.exports = {
     "recievingFromBot_id": "886331989043609620",              
     "chromePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",                       
     "headless": false,
+    "optimize": true,
     "golden_code_channels": ["975328045865009162"],          
     "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36",
     "selectors": {
