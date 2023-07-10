@@ -53,11 +53,8 @@ You need to **extract** the files from the zip before you are able to use the ap
 
 
 ### 4. Getting BOT Token 
-In order to get the TOKEN, go to https://www.base64decode.org/ then decode 
-
-```T1RjMU16azVNemd3TXpRek5EWTRNRGswLkdmdGNDYS50VjFmOFpyeW8zQ0lLTWYwUmFyVWhWYWc4bVJTcjlWalJFMmNCSQ==```
-
-The decoded result is the token
+In order to get the TOKEN, go to [my shop](https://r3ge.mysellix.io/) and buy a license.
+A free version will be released back to the public in the summer of 2023
 
 ### 5. Running on multiple accounts 
 
