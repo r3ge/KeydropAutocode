@@ -51,7 +51,6 @@ You need to **extract** the files from the zip before you are able to use the ap
 
 ### 4. Getting BOT Token 
 In order to get the TOKEN, go to [my shop](https://r3ge.mysellix.io/) and buy a license.
-A free version will be released back to the public in the summer of 2023
 
 ### 5. Running on multiple accounts 
 
