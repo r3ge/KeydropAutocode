@@ -5,11 +5,10 @@
 
 
 ### KeydropAutocode 
-[Youtube Tutorial](https://youtu.be/3tWlimRYWtY) - A little outdated 
 
-[How to install the app](https://github.com/r3ge/KeydropAutocode/wiki/%F0%9F%92%BB-Installing-the-app)
+## [How to install the app](https://github.com/r3ge/KeydropAutocode/wiki/%F0%9F%92%BB-Installing-the-app)
 
-[Leave a ⭐ for more updates](https://github.com/r3ge/KeydropAutocode/stargazers)
+## [Leave a ⭐ for more updates](https://github.com/r3ge/KeydropAutocode/stargazers)
 
 ### **Always update bot token when downloading a new verison of the app.**
 
