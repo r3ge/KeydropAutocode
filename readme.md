@@ -4,7 +4,7 @@
   </p>
 
 
-# KeydropAutocode 
+# KeydropAutocode | Project has been discontinued for now, if you are looking for a alternative go [here](https://r3ge.mysellix.io/)).
 
 ## [How to install the app](https://github.com/r3ge/KeydropAutocode/wiki/%F0%9F%92%BB-Installing-the-app)
 
