@@ -4,7 +4,7 @@
   </p>
 
 
-# KeydropAutocode | Project has been discontinued for now, if you are looking for a alternative go [here](https://r3ge.mysellix.io/).
+# KeydropAutocode | Project has been discontinued for now because farming codes is not profitable anymore.
 
 ## [How to install the app](https://github.com/r3ge/KeydropAutocode/wiki/%F0%9F%92%BB-Installing-the-app)
 
@@ -50,7 +50,7 @@ You need to **extract** the files from the zip before you are able to use the ap
 
 
 ### 4. Getting BOT Token 
-In order to get the TOKEN, go to [my shop](https://r3ge.mysellix.io/) and buy a license.
+Discontinued
 
 ### 5. Running on multiple accounts 
 
